@@ -3,8 +3,8 @@ import json
 import sqlite3
 import re
 
-# Define the path to the root directory containing CVE files
-root_dir = 'C:\\Users\\Saimk\\OneDrive\\Skrivebord\\Bachelor Test Kode\\2023' 
+# Define the path to the root directory containing CVE files. example "C:\\Users\\Desktop\\cvelistV5-main\\cvelistV5-main\\cves"
+root_dir = '' 
 
 # Compile the regex pattern for IoT-related keywords
 regex_pattern = re.compile(r'\b(IoT|smart device|smart home|embedded|sensor|internet of things)\b', re.IGNORECASE)
